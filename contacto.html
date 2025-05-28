@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">ISC. Bryan Saúl Rodríguez Alba</h1>
+    </header>
+
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="#">Inicio</a>
+            <a href="#sobremi">Sobre mi</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+
+    <section class="hero">
+        <div class="contenido-hero">
+            <h2>Diseño y despliegue de redes de fibra óptica</h2>
+            <div class="ubicacion">
+                <svg xmlns="http://www.w3.org/2000/svg" width="88" height="88" viewBox="0 0 24 24" fill="none"
+                    stroke="#ffcc00" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                </svg>
+                <p>Aguascalientes, Ags.</p>
+            </div>
+        </div>
+    </section>
+    <main>
+        <section id="contacto">
+        <h2>Contacto</h2>
+        <form class="formulario">
+            <fieldset>
+                <legend>Contáctame llenando todos los campos</legend>
+
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label for="nombre">Nombre</label>
+                        <input class="input-text" type="text" placeholder="Tu nombre" id="nombre" name="nombre"
+                            required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="telefono">Telefono</label>
+                        <input class="input-text" type="number" placeholder="Tu telefono" id="telefono" name="telefono"
+                            required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">Email</label>
+                        <input class="input-text" type="email" placeholder="Tu email" id="email" name="email" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea class="input-text" name="mensaje" id="mensaje" cols="30" rows="10"
+                            placeholder="Tu mensaje" required>
+                        </textarea>
+                    </div>
+                </div>
+                <div class="alinear-derecha flex">
+                    <input class="boton w-sm-100" type="submit" value="Enviar">
+                </div>
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <p style="text-align: center;">Todos los derechos reservados ISC. Bryan Saúl Rodríguez Alba</p>
+    </footer>
+    </main>
+</body>
+</html>
