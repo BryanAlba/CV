@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="CSS/normalize.css" as="style">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="CSS/styles.css" as="style">
+    <link rel="stylesheet" href="CSS/styles.css">
     <title>Document</title>
 </head>
 <body>
@@ -12,8 +19,8 @@
 
     <div class="nav-bg">
         <nav class="navegacion-principal contenedor">
-            <a href="#">Inicio</a>
-            <a href="#sobremi">Sobre mi</a>
+            <a href="index.html">Inicio</a>
+            <a href="servicios.html">Sobre mi</a>
             <a href="contacto.html">Contacto</a>
         </nav>
     </div>
@@ -31,47 +38,46 @@
             </div>
         </div>
     </section>
-    <main>
-        <section id="contacto">
-        <h2>Contacto</h2>
-        <form class="formulario">
-            <fieldset>
-                <legend>Contáctame llenando todos los campos</legend>
-
-                <div class="contenedor-campos">
-                    <div class="campo">
-                        <label for="nombre">Nombre</label>
-                        <input class="input-text" type="text" placeholder="Tu nombre" id="nombre" name="nombre"
-                            required>
-                    </div>
-
-                    <div class="campo">
-                        <label for="telefono">Telefono</label>
-                        <input class="input-text" type="number" placeholder="Tu telefono" id="telefono" name="telefono"
-                            required>
-                    </div>
-
-                    <div class="campo">
-                        <label for="email">Email</label>
-                        <input class="input-text" type="email" placeholder="Tu email" id="email" name="email" required>
-                    </div>
-
-                    <div class="campo">
-                        <label for="mensaje">Mensaje</label>
-                        <textarea class="input-text" name="mensaje" id="mensaje" cols="30" rows="10"
-                            placeholder="Tu mensaje" required>
-                        </textarea>
-                    </div>
-                </div>
-                <div class="alinear-derecha flex">
-                    <input class="boton w-sm-100" type="submit" value="Enviar">
-                </div>
-            </fieldset>
-        </form>
-    </section>
+<main>
+    <h2>Contacto</h2>
+    <div id="contacto" class="servicios">
+        <section class="servicio">
+            <div class="iconos">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#000000"
+                    stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+                    <path d="M16 12v1.5a2.5 2.5 0 0 0 5 0v-1.5a9 9 0 1 0 -5.5 8.28" />
+                </svg>
+            </div>
+            <p>Correo electrónico: bryan.ralba@gmail.com</p>
+        </section>
+        <section class="servicio">
+            <div class="iconos">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#000000"
+                    stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                    <path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" />
+                </svg>
+            </div>
+            <p>Teléfono y WhatsApp: 4495121243</p>
+        </section>
+        <section class="servicio">
+            <div class="iconos">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#000000"
+                    stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                    <path d="M8 11l0 5" />
+                    <path d="M8 8l0 .01" />
+                    <path d="M12 16l0 -5" />
+                    <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                </svg>
+            </div>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/bryan-saúl-rodríguez-alba-555485256/">Bryan Saul Rodriguez Alba</a></p>
+        </section>
+    </div>
     <footer>
         <p style="text-align: center;">Todos los derechos reservados ISC. Bryan Saúl Rodríguez Alba</p>
     </footer>
-    </main>
+</main>
 </body>
 </html>

@@ -24,8 +24,8 @@
 
     <div class="nav-bg">
         <nav class="navegacion-principal contenedor">
-            <a href="#">Inicio</a>
-            <a href="#sobremi">Sobre mi</a>
+            <a href="index.html">Inicio</a>
+            <a href="servicios.html">Sobre mi</a>
             <a href="contacto.html">Contacto</a>
         </nav>
     </div>
@@ -45,107 +45,6 @@
 
     </section>
     <main class="contenedor sombra">
-        <h2>Mis servicios</h2>
-
-        <div class="servicios">
-
-            <section id="servicios" class="servicio">
-                <h3>Consultoría</h3>
-                <div class="iconos">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#000000"
-                        stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
-                         <path d="M12 12l0 .01" />
-                         <path d="M14.828 9.172a4 4 0 0 1 0 5.656" />
-                         <path d="M17.657 6.343a8 8 0 0 1 0 11.314" />
-                         <path d="M9.168 14.828a4 4 0 0 1 0 -5.656" />
-                         <path d="M6.337 17.657a8 8 0 0 1 0 -11.314" />
-                    </svg>
-                </div>
-                <p>Consultoría de redes con enfoque a ISPs. Enrutamiento de IPs públicas, VLANs, BGP, MSTP, VXLAN, segmentación de bloques.</p>
-            </section>
-
-            <section class="servicio">
-                <h3>Configuración de equipos de redes y servidores</h3>
-                <div class="iconos">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#000000"
-                        stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M18.456 10.45a6.45 6.45 0 0 0 -12 -2.151a4.857 4.857 0 0 0 -4.44 5.241a4.856 4.856 0 0 0 5.236 4.444h10.751a3.771 3.771 0 0 0 3.99 -3.54a3.772 3.772 0 0 0 -3.538 -3.992z" />
-                    </svg>
-                </div>
-                <p>Experiencia en equipos MikroTik, Cisco, Arista y Huawei (OLTs). Del lado de servidores; montaje de Proxmox, LibreNMS, The Dude, Zabbix, Elastiflow.</p>
-            </section>
-
-            <section class="servicio">
-                <h3>Monitoreo de la red y documentación</h3>
-                <div class="iconos">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#000000"
-                        stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M5.931 6.936l1.275 4.249m5.607 5.609l4.251 1.275" />
-                        <path d="M11.683 12.317l5.759 -5.759" />
-                        <path d="M5.5 5.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
-                        <path d="M18.5 5.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
-                        <path d="M18.5 18.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
-                        <path d="M8.5 15.5m-4.5 0a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0" />
-                    </svg>
-                </div>
-                <p>Servicio de monitoreo de la red 24/7 con bots que manden alertas cuando algo esté caído. 
-                    Software de documentación de la red para tener un control de los equipos, IPs, VLANs, etc.</p>
-                </p>
-            </section>
-        </div>
-    </main>
-
-    <section id="sobremi" class="sobre-mi contenedor sombra">
-            <h2>Sobre mí</h2>
-            <div class="contenido-sobre-mi">
-                <div class="foto-perfil">
-                    <img src="img/pic.jpg" alt="Foto de perfil">
-                </div>
-                <p>Ingeniero en redes con experiencia en el área de ISP. Tengo cursos de capacitaciones de Wantelco (Redes Redundantes
-                    y Avanzadas), Manejo de equipos MikroTik de Blazar Training, CCNA 1(Introducción a las redes)
-                    CCNA 2 (Fundamentos de enrutamiento y conmutación) y CCNA 3 (Enterprise Networking) de Cisco Networking Academy.
-                </p>
-            </div>
-    </section>
-    
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <form class="formulario">
-            <fieldset>
-                <legend>Contáctame llenando todos los campos</legend>
-
-                <div class="contenedor-campos">
-                    <div class="campo">
-                        <label for="nombre">Nombre</label>
-                        <input class="input-text" type="text" placeholder="Tu nombre" id="nombre" name="nombre"
-                            required>
-                    </div>
-
-                    <div class="campo">
-                        <label for="telefono">Telefono</label>
-                        <input class="input-text" type="number" placeholder="Tu telefono" id="telefono" name="telefono"
-                            required>
-                    </div>
-
-                    <div class="campo">
-                        <label for="email">Email</label>
-                        <input class="input-text" type="email" placeholder="Tu email" id="email" name="email" required>
-                    </div>
-
-                    <div class="campo">
-                        <label for="mensaje">Mensaje</label>
-                        <textarea class="input-text" name="mensaje" id="mensaje" cols="30" rows="10"
-                            placeholder="Tu mensaje" required>
-                        </textarea>
-                    </div>
-                </div>
-                <div class="alinear-derecha flex">
-                    <input class="boton w-sm-100" type="submit" value="Enviar">
-                </div>
-            </fieldset>
-        </form>
-    </section>
-
     <footer>
         <p style="text-align: center;">Todos los derechos reservados ISC. Bryan Saúl Rodríguez Alba</p>
     </footer>
